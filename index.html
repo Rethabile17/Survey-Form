@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta chaarset="UTF-8">
+    <meta name="viewport"  content="width=device-width, initial-scale=1.0">
+    <title>A Survey form</title>
+    <link rel="stylesheet" href="styles.css"/>
+  </head>
+  <body>
+    <h1 class="titles" id="title">Survey form</h1>
+    <p class="p" id="description">Thank you for taking part in this Survey-form and help us improve the platform</p>
+    <form id="survey-form">
+      <label class="name" id="name-label">Name:
+      <input id="name" type"text" required="input" placeholder="value">
+      </label>
+      </form>
+      <form id="survey-form">
+        <label class="email" id="email-label">Email:
+      <input id="email" type="email" required="input" placeholder="value">
+      </label>
+      </form>
+      <form id="survey-form">
+        <label class="number" id="number-label">Age Number:
+      <input id="number" type="number" min="0" max="10" placeholder="value">
+      </label>
+      </form>
+      <form id="survey-form">
+      <fieldset>
+      <label class="levels">Which option best describes your current skill level?
+        <select id="dropdown">
+        <option>Select Option</option>
+        <option  class="terms">Beginner</option><input   class="Checkbox" type="radio" value="value" name="value">
+        <option class="terms">Intermediate</option><input class="Checkbox" type="radio" value="value" name="value">
+        <option class="terms">Advanced</option><input class="Checkbox" type="checkbox" value="value">
+        <option class="terms">Professional</option><input class="Checkbox" type="checkbox" value="value">  
+       </select>
+       </label>
+       </fieldset>
+       <label class="or" for="bio">Any comments or suggestions?
+       <textarea class="text" id="bio" name="bio" row="3" cols="30" placeholder="Enter your comment here..."></textarea>
+       </label>
+       <button class="button" id="submit">Submit</button>
+      </form>
+  </body>
+</html>
